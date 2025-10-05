@@ -19,6 +19,21 @@ const experienceSectionData = {
       image: import('@/assets/logos/acm-icpc.png'),
       dates: [new Date('2024-05'), null],
       description: `
+        -  This competition can be said to be the starting point of my programming competitions. 
+        - It gives me a lot of confidence and advantages in the fultrue
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [react()],
+      },
+      links: [website({ url: 'https://icpc.global/' })],
+    },
+    {
+      role: 'The 49th ACM-ICPC International Collegiate Programming Contest - National Invitational Tournament (Kunming)',
+      company: 'National Gold Award',
+      image: import('@/assets/logos/acm-icpc.png'),
+      dates: [new Date('2024-05'), null],
+      description: `
         - In tristique vulputate augue vel egestas.
         - Quisque ac imperdiet tortor, at lacinia ex.
         - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
@@ -30,7 +45,26 @@ const experienceSectionData = {
         title: 'Technologies',
         tags: [react()],
       },
-      links: [ website({ url: '#' })],
+      links: [website({ url: 'https://icpc.global/' })],
+    },
+    {
+      role: 'Programming Skills Competition of the RAICOM Contest',
+      company: 'First Prize',
+      image: import('@/assets/logos/acm-icpc.png'),
+      dates: [new Date('2024-05'), null],
+      description: `
+        - In tristique vulputate augue vel egestas.
+        - Quisque ac imperdiet tortor, at lacinia ex.
+        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
+        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
+        - Nunc malesuada leo et est iaculis facilisis.
+        - Fusce eu urna ut magna malesuada fringilla.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [react()],
+      },
+      links: [website({ url: 'https://icpc.global/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;

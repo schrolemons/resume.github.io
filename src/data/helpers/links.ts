@@ -22,7 +22,17 @@ link({ name: '...', url: '...' }) — returns link object with a custom name.
 
 export const facebook = createLinkFactory({
   name: 'Facebook',
-  icon: 'fa6-brands:zhihu',
+  icon: 'fa6-brands:facebook-f',
+});
+
+export const bilibili = createLinkFactory({
+  name: 'Bilibili',
+  icon: 'fa6-brands:bilibili',
+});
+
+export const steam = createLinkFactory({
+  name: 'Steam',
+  icon: 'fa6-brands:steam',
 });
 
 export const linkedin = createLinkFactory({

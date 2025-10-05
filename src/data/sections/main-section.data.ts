@@ -1,6 +1,6 @@
 import type { MainSection } from '@/types/sections/main-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, linkedin, twitter } from '../helpers/links';
+import { bilibili, github, steam } from '../helpers/links';
 
 const mainSectionData = {
   config: {
@@ -32,9 +32,13 @@ const mainSectionData = {
   action: {
     label: 'Download CV',
     url: '/cv.pdf',
-    downloadedFileName: 'CV-Mark_Freeman.pdf',
+    downloadedFileName: 'CV-Schro_Lemons.pdf',
   },
-  links: [facebook({ url: '#' }), github({ url: '#' }), linkedin({ url: '#' }), twitter({ url: '#' })],
+  links: [
+    bilibili({ url: 'https://space.bilibili.com/437533062?spm_id_from=333.1007.0.0' }),
+    github({ url: 'https://github.com/schrolemons' }),
+    steam({ url: 'https://steamcommunity.com/profiles/76561199550506404/' }),
+  ],
 } as const satisfies ReadonlyDeep<MainSection>;
 
 export default mainSectionData;
