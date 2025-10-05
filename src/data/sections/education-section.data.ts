@@ -21,7 +21,7 @@ const educationSectionData = {
     {
       title: 'Jilin University ',
       institution: 'Cyberspace Security',
-      image: import('@/assets/logos/JLU.jpg'),
+      image: import('@/assets/logos/jlu.jpg'),
       dates: [new Date('2022.09'), new Date('2026.06')],
       description: "Bachelor's degree. ",
       links: [website({ url: 'https://www.jlu.edu.cn/' })],
