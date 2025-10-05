@@ -11,14 +11,14 @@ const config = {
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
+    title: 'Lemons Schro - Pure World Explorer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
+      "Welcome to my profile. I am currently pursuing a degree in Cyberspace Security at Jilin University and shall soon commence my Master's studies at the School of Computer Science and Technology, University of Science and Technology of China. My research within the USTC Intelligent Network and System Group (INT) will focus on distributed computing, including AI × Communications. I warmly invite you to engage in discussions on related fields." ,
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {
     footer:
-      'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process.',
+      'I hereby declare that the above information shall not be used without authorisation until I update this statement.',
   },
 } as const satisfies ReadonlyDeep<Config>;
 
