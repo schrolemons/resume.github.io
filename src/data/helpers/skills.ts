@@ -73,18 +73,23 @@ export const mongoDb = createSkillFactory({
   url: 'https://www.mongodb.com/',
 });
 
-export const nestJs = createSkillFactory({
-  name: 'NestJS',
-  icon: 'simple-icons:nestjs',
-  iconColor: '#E0234E',
-  url: 'https://nestjs.com/',
-});
 
 export const nextJs = createSkillFactory({
-  name: 'Next.js',
-  icon: 'simple-icons:nextdotjs',
+  name: 'js',
+  icon: 'fa6-brands:js',
   iconColor: '#000000',
-  url: 'https://nextjs.org/',
+});
+
+export const html = createSkillFactory({
+  name: 'html',
+  icon: 'fa6-brands:html5',
+  iconColor: '#000000',
+});
+
+export const css = createSkillFactory({
+  name: 'css',
+  icon: 'fa6-brands:css3',
+  iconColor: '#000000',
 });
 
 export const nx = createSkillFactory({
@@ -170,6 +175,12 @@ export const c = createSkillFactory({
   iconColor: '#4FC08D',
 });
 
+export const python = createSkillFactory({
+  name: 'Python',
+  icon: 'fa6-brands:python',
+  iconColor: '#4FC08D',
+});
+
 export const code = createSkillFactory({
   name: 'Code',
   icon: 'fa6-solid:code',
@@ -201,7 +212,7 @@ export const  users = createSkillFactory({
 });
 
 export const person = createSkillFactory({
-  name: 'Single-player',
+  name: 'Single-participate',
   icon: 'fa6-solid:person',
   iconColor: '#4FC08D',
 });
