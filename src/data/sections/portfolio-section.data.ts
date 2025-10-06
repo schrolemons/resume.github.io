@@ -5,6 +5,8 @@ import {
   nextJs,
   css,
   html,
+  code,
+  c,
 } from '../helpers/skills';
 
 const portfolioSectionData = {
@@ -39,9 +41,60 @@ const portfolioSectionData = {
         'I have divided my personal blog into three sections: the main site and core content, personal information and learning experiences, and fictional world-building.',
       tagsList: {
         title: 'Technologies',
-        tags: [nextJs(), css(),html()],
+        tags: [nextJs(), css(), html()],
       },
       links: [github({ url: 'https://github.com/schrolemons/' }), website({ url: 'https://zero.sch-nie.com' })],
+    },
+    {
+      name: 'Waline Comment System',
+      image: import('@/assets/logos/waline.png'),
+      dates: [new Date('2024-09'), null],
+      details: [
+        { label: 'Team', value: 'None' },
+        { label: 'Category', value: ['Open source'] },
+      ],
+      pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/remark', url: '#' }],
+
+      description: "I've implemented the Waline commenting system, which is free and straightforward to set up.",
+      tagsList: {
+        title: 'Technologies',
+        tags: [],
+      },
+      links: [github({ url: 'https://github.com/schrolemons/remark' }), website({ url: 'https://remark.sch-nie.com' })],
+    },
+    {
+      name: 'Unity-3D_FPS',
+      image: import('@/assets/logos/unity.png'),
+      dates: [new Date('2025-03'), null],
+      details: [
+        { label: 'Team', value: 'None' },
+        { label: 'Category', value: [' '] },
+      ],
+      pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/3D_FPS', url: '#' }],
+
+      description: ' ',
+      tagsList: {
+        title: 'Technologies',
+        tags: [code()],
+      },
+      links: [github({ url: 'https://github.com/schrolemons/3D_FPS' })],
+    },
+    {
+      name: 'Mahjong AI Battle Program',
+      image: import('@/assets/logos/ecode.png'),
+      dates: [new Date('2024-04'), null],
+      details: [
+        { label: 'Team', value: '3' },
+        { label: 'Category', value: [' '] },
+      ],
+      pdfDetails: [{ label: 'Repository', value: 'https://e.coding.net/g-ocbn7685/mahjong/Mahjong.git', url: '#' }],
+
+      description: ' ',
+      tagsList: {
+        title: 'Technologies',
+        tags: [c(),code()],
+      },
+      links: [website({ url: 'https://e.coding.net/g-ocbn7685/mahjong/Mahjong.git' })],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;
