@@ -15,7 +15,7 @@ const educationSectionData = {
       institution: 'Computer Science and Technology',
       image: import('@/assets/logos/ustc.jpg'),
       dates: [new Date('2026.09'), new Date('2029.06')],
-      description: 'Master degree. ',
+      description: "Pursuing a Master's degree in Computer Security and Technology",
       links: [website({ url: 'https://www.ustc.edu.cn/' })],
     },
     {
@@ -23,7 +23,7 @@ const educationSectionData = {
       institution: 'Cyberspace Security',
       image: import('@/assets/logos/jlu.jpg'),
       dates: [new Date('2022.09'), new Date('2026.06')],
-      description: "Bachelor's degree. ",
+      description: "Pursuing a Bachelor's Degree in Cyberspace Security",
       links: [website({ url: 'https://www.jlu.edu.cn/' })],
     },
   ],

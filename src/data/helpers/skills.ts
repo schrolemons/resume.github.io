@@ -1,5 +1,4 @@
 import createSkillFactory from '@/data/_internals/create-skill-factory';
-
 /*
 
 Place where you can define all your skills.
@@ -164,3 +163,46 @@ export const vue = createSkillFactory({
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });
+
+export const c = createSkillFactory({
+  name: 'C++',
+  icon: 'fa6-solid:c',
+  iconColor: '#4FC08D',
+});
+
+export const code = createSkillFactory({
+  name: 'Code',
+  icon: 'fa6-solid:code',
+  iconColor: '#4FC08D',
+});
+
+export const award = createSkillFactory({
+  name: 'Award',
+  icon: 'fa6-solid:award',
+  iconColor: '#4FC08D',
+});
+
+export const think = createSkillFactory({
+  name: 'Think',
+  icon: 'fa6-solid:comment-dots',
+  iconColor: '#4FC08D',
+});
+
+export const create = createSkillFactory({
+  name: 'Create',
+  icon: 'fa6-solid:lightbulb',
+  iconColor: '#4FC08D',
+});
+
+export const  users = createSkillFactory({
+  name: 'Team',
+  icon: 'fa6-solid:users',
+  iconColor: '#4FC08D',
+});
+
+export const person = createSkillFactory({
+  name: 'Single-player',
+  icon: 'fa6-solid:person',
+  iconColor: '#4FC08D',
+});
+

@@ -13,19 +13,19 @@ const mainSectionData = {
   fullName: 'Lemons Schro',
   role: 'Pure World Explorer',
   details: [
-    { label: 'Wexin', value: 'schrolemons' },
+    { label: 'Wechat', value: 'schrolemons' },
     { label: 'Email', value: 'schrolemons@foxmail.com' },
-    { label: 'From', value: 'Hunan,China' },
-    { label: 'NOW', value: 'Jilin,China' },
+    { label: 'Hometown', value: 'Hunan,China' },
+    { label: 'Now', value: 'Jilin,China' },
   ],
   pdfDetails: [
-    { label: 'Wexin', value: 'schrolemons' },
+    { label: 'Wechat', value: 'schrolemons' },
     { label: 'Email', value: 'schrolemons@foxmail.com' },
     { label: 'GitHub', value: '/schrolemons', url: 'https://github.com' },
     { label: 'Website', value: 'resume.sch-nie.com', url: '/', fullRow: true },
   ],
   description:
-    "&emsp;&emsp;Welcome to my profile. I am currently pursuing a degree in Cyberspace Security at Jilin University and shall soon commence my Master's studies at the School of Computer Science and Technology, University of Science and Technology of China." +
+    "&emsp;&emsp;Welcome to my profile. I am currently pursuing a degree in Cyberspace Security at Jilin University(JLU) and shall soon commence my Master's studies at the School of Computer Science and Technology, University of Science and Technology of China(USTC)." +
     '\n' +
     ' &emsp;&emsp;My research within the USTC Intelligent Network and System Group (INT) will focus on distributed computing, including AI × Communications. I warmly invite you to engage in discussions on related fields.',
   tags: [{ name: 'ACM "Amateur"' }, { name: 'Lover of fictional worlds' }, { name: 'Continuous balanced learner' }],
