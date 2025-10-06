@@ -25,7 +25,7 @@ const mainSectionData = {
     { label: 'Website', value: 'resume.sch-nie.com', url: '/', fullRow: true },
   ],
   description:
-    "&emsp;&emsp;Welcome to my profile. I am currently pursuing a degree in Cyberspace Security at Jilin University(JLU) and shall soon commence my Master's studies at the School of Computer Science and Technology, University of Science and Technology of China(USTC)." +
+    "&emsp;&emsp;Welcome to my profile. I am currently pursuing a Bachelor's degree in Cyberspace Security at Jilin University(JLU) and shall soon commence my Master's studies at the School of Computer Science and Technology, University of Science and Technology of China(USTC)." +
     '\n' +
     ' &emsp;&emsp;My research within the USTC Intelligent Network and System Group (INT) will focus on distributed computing, including AI × Communications. I warmly invite you to engage in discussions on related fields.',
   tags: [{ name: 'ACM "Amateur"' }, { name: 'Lover of fictional worlds' }, { name: 'Continuous balanced learner' }],

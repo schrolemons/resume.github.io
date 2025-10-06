@@ -14,12 +14,15 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'National Gold Award,The 49th ACM-ICPC International Collegiate Programming Contest - National Invitational Tournament (Kunming)',
+      role: 'National Gold Award,The 2024 ICPC China Kunming National Invitational Programming Contest',
       company: '',
       image: import('@/assets/logos/acm-icpc.png'),
       dates: [new Date('2024-05'), null],
       description: `
-     `,
+        - This competition can be said to be the starting point of my programming competitions. 
+        - It gives me a lot of confidence and advantages in the fultrue.
+        - Not only did I further cultivate my innovative abilities, team spirit and collaboration skills, but I also developed the capacity to write programmes, analyse and solve problems under pressure.
+      `,
       tagsList: {
         title: 'Tags',
         tags: [c(), code(), think(), create(), users()],
@@ -27,36 +30,58 @@ const experienceSectionData = {
       links: [website({ url: 'https://icpc.global/' })],
     },
     {
-      role: 'Second Prize,The 16th Blue Bridge Cup C/C++ Programming Competition, University Group A',
+      role: 'National Second Prize,The 16th Lan Qiao Cup C/C++ Programming Competition, University Group A',
       company: ' ',
       image: import('@/assets/logos/lanqiao.png'),
       dates: [new Date('2025-06'), null],
       description: `
+        -The Blue Bridge Cup competition places greater emphasis on assessing fundamental coding skills, whilst its individual format allows for a more comprehensive demonstration of personal capabilities.
+        -Moreover, the post-event standardised assessment approach it employs places heightened demands on the one-off accuracy and rigour of the code.
       `,
       tagsList: {
         title: 'Tags',
-        tags: [c(), code(),person()],
+        tags: [c(), code(), person()],
       },
       links: [website({ url: 'https://dasai.lanqiao.cn/' })],
     },
     {
-      role: 'First Prize,Programming Skills Competition of the RAICOM Contest',
+      role: 'National First Prize,Programming Skills Competition of the RAICOM Contest',
       company: '',
       image: import('@/assets/logos/raicom.png'),
       dates: [new Date('2025-08'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
       `,
       tagsList: {
         title: 'Tags',
-        tags: [c(), code(),person()],
+        tags: [c(), code(), person()],
       },
       links: [website({ url: 'https://www.raicom.com.cn/' })],
+    },
+    {
+      role: 'National Third Prize,China College Computing Contest - Group Programming Ladder Tournament ',
+      company: '',
+      image: import('@/assets/logos/gplt.png'),
+      dates: [new Date('2025-04'), null],
+      description: `
+      `,
+      tagsList: {
+        title: 'Tags',
+        tags: [c(), code(), person(), users()],
+      },
+      links: [website({ url: 'https://gplt.patest.cn/regulation' })],
+    },
+    {
+      role: 'National Third Prize,CCF China Computer Application Technology Competition ',
+      company: '',
+      image: import('@/assets/logos/cat.png'),
+      dates: [new Date('2025-08'), null],
+      description: `
+      `,
+      tagsList: {
+        title: 'Tags',
+        tags: [c(), code(), users()],
+      },
+      links: [website({ url: 'https://cat.ccf.org.cn/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;
