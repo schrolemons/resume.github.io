@@ -1,6 +1,6 @@
 import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { c, python, mongoDb, nextJs,css } from '../helpers/skills';
+import { c, python, mongoDb, nextJs,css,c2 } from '../helpers/skills';
 
 const skillsSectionData = {
   config: {
@@ -25,7 +25,7 @@ const skillsSectionData = {
     },
     {
       title: 'I want to learn（Provisional）',
-      skills: [mongoDb(), nextJs(),css()],
+      skills: [mongoDb(), nextJs(),css(),c2()],
     },
     {
       title: 'language',

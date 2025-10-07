@@ -15,7 +15,7 @@ const educationSectionData = {
       institution: 'Computer Science and Technology',
       image: import('@/assets/logos/ustc.jpg'),
       dates: [new Date('2026.09'), new Date('2029.06')],
-      description: "Pursuing a Master's degree in Computer Security and Technology.",
+      description: "Pursuing a Master's degree.",
       links: [website({ url: 'https://www.ustc.edu.cn/' })],
     },
     {
