@@ -35,8 +35,8 @@ const experienceSectionData = {
       image: import('@/assets/logos/lanqiao.png'),
       dates: [new Date('2025-06'), null],
       description: `
-        -The Blue Bridge Cup competition places greater emphasis on assessing fundamental coding skills, whilst its individual format allows for a more comprehensive demonstration of personal capabilities.
-        -Moreover, the post-event standardised assessment approach it employs places heightened demands on the one-off accuracy and rigour of the code.
+        - The Blue Bridge Cup competition places greater emphasis on assessing fundamental coding skills, whilst its individual format allows for a more comprehensive demonstration of personal capabilities.
+        - Moreover, the post-event standardised assessment approach it employs places heightened demands on the one-off accuracy and rigour of the code.
       `,
       tagsList: {
         title: 'Tags',

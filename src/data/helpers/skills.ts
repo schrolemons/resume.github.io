@@ -175,6 +175,12 @@ export const c = createSkillFactory({
   iconColor: '#4FC08D',
 });
 
+export const c2 = createSkillFactory({
+  name: 'C#',
+  icon: 'fa6-solid:c',
+  iconColor: '#4FC08D',
+});
+
 export const python = createSkillFactory({
   name: 'Python',
   icon: 'fa6-brands:python',

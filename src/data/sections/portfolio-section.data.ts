@@ -7,11 +7,12 @@ import {
   html,
   code,
   c,
+  c2,
 } from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
-    title: 'Projects',
+    title: 'Projects & Webs',
     slug: 'projects',
     icon: 'fa6-solid:rocket',
     visible: true,
@@ -28,12 +29,12 @@ const portfolioSectionData = {
       details: [
         { label: 'Blog Count', value: '3 main' },
         { label: 'Theme', value: ['Butterfly', 'nexT', 'Cactus'] },
-        { label: 'Team', value: 'None' },
+        { label: 'Tools', value: ['Hexo', 'npm', 'Github', 'Vercel'] },
         { label: 'Category', value: ['Personal blog', 'Open source'] },
       ],
       pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/', url: '#' }],
       screenshots: [
-        { src: import('@/assets/portfolio/zero.png'), alt: 'zero.sch-nie.com' },
+        { src: import('@/assets/portfolio/zero.png'), alt: 'www.sch-nie.com' },
         { src: import('@/assets/portfolio/world.png'), alt: 'world.sch-nie.com' },
         { src: import('@/assets/portfolio/blog.png'), alt: 'blog.sch-nie.com' },
       ],
@@ -43,14 +44,69 @@ const portfolioSectionData = {
         title: 'Technologies',
         tags: [nextJs(), css(), html()],
       },
-      links: [github({ url: 'https://github.com/schrolemons/' }), website({ url: 'https://zero.sch-nie.com' })],
+      links: [github({ url: 'https://github.com/schrolemons/' }), website({ url: 'https://www.sch-nie.com' })],
+    },
+    {
+      name: 'Astro CV',
+      image: import('@/assets/logos/astro.png'),
+      dates: [new Date('2025-10'), null],
+      details: [
+        { label: 'CV Count', value: '1 main' },
+        { label: 'Theme', value: ['Devscard'] },
+        { label: 'Tools', value: ['Astro', 'npm', 'Github', 'Vercel'] },
+        { label: 'Category', value: ['Personal resume', 'Open source'] },
+      ],
+      pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/resume', url: '#' }],
+      description:
+        'This is my personal resume. As you can see, even if a class cannot contain itself, containing a pointer to itself is a simple matter.',
+      tagsList: {
+        title: 'Technologies',
+        tags: [html()],
+      },
+      links: [github({ url: 'https://github.com/schrolemons/resume' }), website({ url: 'https://resume.sch-nie.com' })],
+    },
+    {
+      name: 'Unity-3D_FPS',
+      image: import('@/assets/logos/unity.png'),
+      dates: [new Date('2025-03'), null],
+      details: [
+        { label: 'Tools', value: ['Unity', 'Visual Studio 2022'] },
+        { label: 'Category', value: ['Personal entertainment'] },
+      ],
+      pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/3D_FPS', url: '#' }],
+
+      description:
+        'The School of Computer Science and Technology at Jilin University has partnered with Dalian Neusoft Ruidao Education Information Technology Co., Ltd. and Liaoning Xinyun Zhichuang Technology Co., Ltd. to establish a Unity enterprise training programme.',
+      tagsList: {
+        title: 'Technologies',
+        tags: [c2(), code()],
+      },
+      links: [github({ url: 'https://github.com/schrolemons/3D_FPS' })],
+    },
+    {
+      name: 'Mahjong AI Battle Program',
+      image: import('@/assets/logos/ecode.png'),
+      dates: [new Date('2024-04'), null],
+      details: [
+        { label: 'Team', value: '2 members' },
+        { label: 'Tools', value: ['Windows', 'Clion', 'BotZone'] },
+      ],
+      pdfDetails: [{ label: 'Repository', value: 'https://e.coding.net/g-ocbn7685/mahjong/Mahjong.git', url: '#' }],
+
+      description:
+        'The project developed a mahjong bot programme for the Botzone platform, employing search, pruning, and evaluation strategies to realise an AI mahjong combat system capable of operating under conditions of opaque information and complex game states.',
+      tagsList: {
+        title: 'Technologies',
+        tags: [c(), code()],
+      },
+      links: [website({ url: 'https://e.coding.net/g-ocbn7685/mahjong/Mahjong.git' })],
     },
     {
       name: 'Waline Comment System',
       image: import('@/assets/logos/waline.png'),
       dates: [new Date('2024-09'), null],
       details: [
-        { label: 'Team', value: 'None' },
+        { label: 'Tools', value: ['Waline', 'Github'] },
         { label: 'Category', value: ['Open source'] },
       ],
       pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/remark', url: '#' }],
@@ -63,38 +119,21 @@ const portfolioSectionData = {
       links: [github({ url: 'https://github.com/schrolemons/remark' }), website({ url: 'https://remark.sch-nie.com' })],
     },
     {
-      name: 'Unity-3D_FPS',
-      image: import('@/assets/logos/unity.png'),
-      dates: [new Date('2025-03'), null],
+      name: 'Uptimeflare',
+      image: import('@/assets/logos/cloud.jpg'),
+      dates: [new Date('2025-010'), null],
       details: [
-        { label: 'Team', value: 'None' },
-        { label: 'Category', value: [' '] },
+        { label: 'Tools', value: ['Cloudflare', 'Github'] },
+        { label: 'Category', value: ['Open source'] },
       ],
-      pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/3D_FPS', url: '#' }],
+      pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/monitor', url: '#' }],
 
-      description: ' ',
+      description: 'A project hosted on Cloudflare that enables website monitoring without requiring a server.',
       tagsList: {
         title: 'Technologies',
-        tags: [code()],
+        tags: [],
       },
-      links: [github({ url: 'https://github.com/schrolemons/3D_FPS' })],
-    },
-    {
-      name: 'Mahjong AI Battle Program',
-      image: import('@/assets/logos/ecode.png'),
-      dates: [new Date('2024-04'), null],
-      details: [
-        { label: 'Team', value: '3' },
-        { label: 'Category', value: [' '] },
-      ],
-      pdfDetails: [{ label: 'Repository', value: 'https://e.coding.net/g-ocbn7685/mahjong/Mahjong.git', url: '#' }],
-
-      description: ' ',
-      tagsList: {
-        title: 'Technologies',
-        tags: [c(),code()],
-      },
-      links: [website({ url: 'https://e.coding.net/g-ocbn7685/mahjong/Mahjong.git' })],
+      links: [github({ url: 'https://github.com/schrolemons/monitor' }), website({ url: 'monitor.sch-nie.com' })],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;
