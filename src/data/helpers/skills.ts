@@ -187,6 +187,11 @@ export const python = createSkillFactory({
   iconColor: '#4FC08D',
 });
 
+export const pytorch = createSkillFactory({
+  name: 'PyTorch',
+  iconColor: '#4FC08D',
+});
+
 export const code = createSkillFactory({
   name: 'Code',
   icon: 'fa6-solid:code',

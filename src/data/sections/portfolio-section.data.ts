@@ -39,7 +39,7 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/blog.png'), alt: 'blog.sch-nie.com' },
       ],
       description:
-        'I have divided my personal blog into three sections: the main site and core content, personal information and learning experiences, and fictional world-building.',
+        '&emsp;&emsp;I have divided my personal blog into three sections: the main site and core content, personal information and learning experiences, and fictional world-building.',
       tagsList: {
         title: 'Technologies',
         tags: [nextJs(), css(), html()],
@@ -58,7 +58,7 @@ const portfolioSectionData = {
       ],
       pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/resume', url: '#' }],
       description:
-        'This is my personal resume. As you can see, even if a class cannot contain itself, containing a pointer to itself is a simple matter.',
+        '&emsp;&emsp;This is my personal resume. As you can see, even if a class cannot contain itself, containing a pointer to itself is a simple matter.',
       tagsList: {
         title: 'Technologies',
         tags: [html()],
@@ -76,7 +76,7 @@ const portfolioSectionData = {
       pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/3D_FPS', url: '#' }],
 
       description:
-        'The School of Computer Science and Technology at Jilin University has partnered with Dalian Neusoft Ruidao Education Information Technology Co., Ltd. and Liaoning Xinyun Zhichuang Technology Co., Ltd. to establish a Unity enterprise training programme.',
+        '&emsp;&emsp;The School of Computer Science and Technology at Jilin University has partnered with Dalian Neusoft Ruidao Education Information Technology Co., Ltd. and Liaoning Xinyun Zhichuang Technology Co., Ltd. to establish a Unity enterprise training programme.',
       tagsList: {
         title: 'Technologies',
         tags: [c2(), code()],
@@ -94,7 +94,7 @@ const portfolioSectionData = {
       pdfDetails: [{ label: 'Repository', value: 'https://e.coding.net/g-ocbn7685/mahjong/Mahjong.git', url: '#' }],
 
       description:
-        'The project developed a mahjong bot programme for the Botzone platform, employing search, pruning, and evaluation strategies to realise an AI mahjong combat system capable of operating under conditions of opaque information and complex game states.',
+        '&emsp;&emsp;The project developed a mahjong bot programme for the Botzone platform, employing search, pruning, and evaluation strategies to realise an AI mahjong combat system capable of operating under conditions of opaque information and complex game states.',
       tagsList: {
         title: 'Technologies',
         tags: [c(), code()],
@@ -111,7 +111,8 @@ const portfolioSectionData = {
       ],
       pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/remark', url: '#' }],
 
-      description: "I've implemented the Waline commenting system, which is free and straightforward to set up.",
+      description:
+        "&emsp;&emsp;I've implemented the Waline commenting system, which is free and straightforward to set up.",
       tagsList: {
         title: 'Technologies',
         tags: [],
@@ -128,7 +129,8 @@ const portfolioSectionData = {
       ],
       pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/monitor', url: '#' }],
 
-      description: 'A project hosted on Cloudflare that enables website monitoring without requiring a server.',
+      description:
+        '&emsp;&emsp;A project hosted on Cloudflare that enables website monitoring without requiring a server.',
       tagsList: {
         title: 'Technologies',
         tags: [],

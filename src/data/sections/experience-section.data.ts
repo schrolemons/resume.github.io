@@ -15,7 +15,7 @@ const experienceSectionData = {
   jobs: [
     {
       role: 'National Gold Award,The 2024 ICPC China Kunming National Invitational Programming Contest',
-      company: '',
+      company: 'ICPC Foundation',
       image: import('@/assets/logos/acm-icpc.png'),
       dates: [new Date('2024-05'), null],
       description: `
