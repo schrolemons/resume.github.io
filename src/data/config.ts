@@ -17,8 +17,7 @@ const config = {
     faviconPath: '/src/assets/my-image.jpg',
   },
   pdf: {
-    footer:
-      'I hereby declare that the above information shall not be used without authorisation until I update this statement.',
+    footer: 'The above CV information is for reference only. For specific CV details, please contact me directly.',
   },
 } as const satisfies ReadonlyDeep<Config>;
 
