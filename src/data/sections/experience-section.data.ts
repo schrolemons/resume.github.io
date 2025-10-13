@@ -83,6 +83,23 @@ const experienceSectionData = {
       },
       links: [website({ url: 'https://cat.ccf.org.cn/' })],
     },
+
+    {
+      role: 'Piano Grade 10 Certificate ,China Musicians Association',
+      company: '',
+      image: import('@/assets/logos/music.png'),
+      dates: [new Date('2014'), null],
+      description: `
+        - Note: An “amateur” Grade 10 piano certificate is merely the beginning of one's “performance” journey.
+        - This is my first national certificate; moreover, I began practising from kindergarten onwards.
+        - I performed a piano duet of Marche Militaire and the Carmen Overture in middle school and a solo of Clouds Chasing the Moon in high school, respectively.
+      `,
+      tagsList: {
+        title: 'Tags',
+        tags: [person()],
+      },
+      links: [website({ url: 'https://chnmusic.org.cn/' })],
+    },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;
 
