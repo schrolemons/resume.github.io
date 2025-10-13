@@ -88,7 +88,7 @@ const experienceSectionData = {
       role: 'Piano Grade 10 Certificate ,China Musicians Association',
       company: '',
       image: import('@/assets/logos/music.png'),
-      dates: [new Date('2014'), null],
+      dates: [new Date('2015-08'), null],
       description: `
         - Note: An “amateur” Grade 10 piano certificate is merely the beginning of one's “performance” journey.
         - This is my first national certificate; moreover, I began practising from kindergarten onwards.
