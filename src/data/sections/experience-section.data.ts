@@ -58,6 +58,19 @@ const experienceSectionData = {
       links: [website({ url: 'https://www.raicom.com.cn/' })],
     },
     {
+      role: 'National Bronze Award,2025 CCF Collegiate Computer Systems & Programming contest',
+      company: '',
+      image: import('@/assets/logos/ccf.png'),
+      dates: [new Date('2025-10'), null],
+      description: `
+      `,
+      tagsList: {
+        title: 'Tags',
+        tags: [c(), code(), person()],
+      },
+      links: [website({ url: 'https://www.ccf.org.cn/Focus/2025-10-17/849883.shtml' })],
+    },
+    {
       role: 'National Third Prize,China College Computing Contest - Group Programming Ladder Tournament ',
       company: '',
       image: import('@/assets/logos/gplt.png'),
