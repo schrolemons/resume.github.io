@@ -12,6 +12,12 @@ const favoritesSectionData = {
     title: 'Books I read',
     data: [
       {
+        image: import('@/assets/favorites/books/book-4.png'),
+        title: 'SCHNIE:Seablue Revery',
+        author: 'Lemons Schro',
+        url: 'https://www.sch-nie.com/core/',
+      },
+      {
         image: import('@/assets/favorites/books/book-1.jpg'),
         title: 'Deep Dive into Competitive Programming',
         author: 'kkksc03',
@@ -28,12 +34,6 @@ const favoritesSectionData = {
         title: 'The Art of Loving',
         author: 'Erich Fromm',
         url: 'https://www.bilibili.com/video/BV1HV411z7Lr/?vd_source=3f6309a98a89ba003f48ba58a398a6b6',
-      },
-      {
-        image: import('@/assets/favorites/books/book-4.png'),
-        title: 'SCHNIE:Seablue Revery',
-        author: 'Lemons Schro',
-        url: 'https://www.sch-nie.com/core/',
       },
     ],
   },
