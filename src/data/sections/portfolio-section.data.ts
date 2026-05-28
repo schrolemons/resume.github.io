@@ -28,7 +28,7 @@ const portfolioSectionData = {
       dates: [new Date('2024-09'), null],
       details: [
         { label: 'Blog Count', value: '3 main' },
-        { label: 'Theme', value: ['Butterfly', 'nexT', 'Cactus'] },
+        { label: 'Theme', value: ['Butterfly', 'nexT', 'VSC4T'] },
         { label: 'Tools', value: ['Hexo', 'npm', 'Github', 'Vercel'] },
         { label: 'Category', value: ['Personal blog', 'Open source'] },
       ],

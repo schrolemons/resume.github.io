@@ -19,7 +19,9 @@ const skillsSectionData = {
             'Achieved 415/500 points in the CCF-CSP Computer Software Capability Certification, ranking within the top 0.6% nationally.'+'\n'+'Codeforces rate:1500+',
         }),
         python({
-          level: 1,
+          level: 3,
+          description:
+            'null'
         }),
       ],
     },
