@@ -16,7 +16,7 @@ const mainSectionData = {
     { label: 'Wechat', value: 'schrolemons' },
     { label: 'Email', value: 'schrolemons@foxmail.com' },
     { label: 'Hometown', value: 'Hunan,China' },
-    { label: 'Now', value: 'Jilin,China' },
+    { label: 'Now', value: 'Anhui,China' },
   ],
   pdfDetails: [
     { label: 'Wechat', value: 'schrolemons' },
@@ -25,9 +25,9 @@ const mainSectionData = {
     { label: 'Website', value: 'resume.sch-nie.com', url: '/', fullRow: true },
   ],
   description:
-    "&emsp;&emsp;Welcome to my profile. I am currently pursuing a Bachelor's degree in Cyberspace Security at Jilin University(JLU) and shall soon commence my Master's studies at the School of Computer Science and Technology, University of Science and Technology of China(USTC)." +
+    "&emsp;&emsp;Welcome to my personal page. I am currently pursuing a research-based master's degree in Computer Science and Technology at the University of Science and Technology of China (USTC), and I completed my undergraduate studies in Cyberspace Security at Jilin University. " +
     '\n' +
-    ' &emsp;&emsp;My research within the USTC Intelligent Network and System Group (INT) will focus on distributed computing, including AI × Communications. I warmly invite you to engage in discussions on related fields.',
+    " &emsp;&emsp;My research at the INT Lab (Intelligent Networks and Systems) at USTC will focus on distributed computing, though the specific direction hasn't been decided yet. I sincerely invite you to exchange ideas and discuss topics related to this field.",
   tags: [{ name: 'ACM "Amateur"' }, { name: 'Lover of fictional worlds' }, { name: 'Continuous balanced learner' }],
   action: {
     label: 'Download CV',

@@ -2,7 +2,7 @@ import type { ExperienceSection } from '@/types/sections/experience-section.type
 import type { ReadonlyDeep } from 'type-fest';
 import {  website } from '../helpers/links';
 import {
-c,code,think,create,users,person
+c,code,think,create,users,person,python
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -41,6 +41,19 @@ const experienceSectionData = {
       tagsList: {
         title: 'Tags',
         tags: [c(), code(), person()],
+      },
+      links: [website({ url: 'https://dasai.lanqiao.cn/' })],
+    },
+    {
+      role: 'National First Prize,The 17th Lan Qiao Cup Python Programming Competition, University Group A',
+      company: ' ',
+      image: import('@/assets/logos/lanqiao.png'),
+      dates: [new Date('2026-06'), null],
+      description: `
+           `,
+      tagsList: {
+        title: 'Tags',
+        tags: [python(), code(), person()],
       },
       links: [website({ url: 'https://dasai.lanqiao.cn/' })],
     },

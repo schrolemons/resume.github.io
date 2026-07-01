@@ -101,42 +101,42 @@ const portfolioSectionData = {
       },
       links: [website({ url: 'https://e.coding.net/g-ocbn7685/mahjong/Mahjong.git' })],
     },
-    {
-      name: 'Waline Comment System',
-      image: import('@/assets/logos/waline.png'),
-      dates: [new Date('2024-09'), null],
-      details: [
-        { label: 'Tools', value: ['Waline', 'Github'] },
-        { label: 'Category', value: ['Open source'] },
-      ],
-      pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/remark', url: '#' }],
-
-      description:
-        "&emsp;&emsp;I've implemented the Waline commenting system, which is free and straightforward to set up.",
-      tagsList: {
-        title: 'Technologies',
-        tags: [],
-      },
-      links: [github({ url: 'https://github.com/schrolemons/remark' }), website({ url: 'https://remark.sch-nie.com' })],
-    },
-    {
-      name: 'Uptimeflare',
-      image: import('@/assets/logos/cloud.jpg'),
-      dates: [new Date('2025-010'), null],
-      details: [
-        { label: 'Tools', value: ['Cloudflare', 'Github'] },
-        { label: 'Category', value: ['Open source'] },
-      ],
-      pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/monitor', url: '#' }],
-
-      description:
-        '&emsp;&emsp;A project hosted on Cloudflare that enables website monitoring without requiring a server.',
-      tagsList: {
-        title: 'Technologies',
-        tags: [],
-      },
-      links: [github({ url: 'https://github.com/schrolemons/monitor' }), website({ url: 'monitor.sch-nie.com' })],
-    },
+    // {
+    //   name: 'Waline Comment System',
+    //   image: import('@/assets/logos/waline.png'),
+    //   dates: [new Date('2024-09'), null],
+    //   details: [
+    //     { label: 'Tools', value: ['Waline', 'Github'] },
+    //     { label: 'Category', value: ['Open source'] },
+    //   ],
+    //   pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/remark', url: '#' }],
+    //
+    //   description:
+    //     "&emsp;&emsp;I've implemented the Waline commenting system, which is free and straightforward to set up.",
+    //   tagsList: {
+    //     title: 'Technologies',
+    //     tags: [],
+    //   },
+    //   links: [github({ url: 'https://github.com/schrolemons/remark' }), website({ url: 'https://remark.sch-nie.com' })],
+    // },
+    // {
+    //   name: 'Uptimeflare',
+    //   image: import('@/assets/logos/cloud.jpg'),
+    //   dates: [new Date('2025-010'), null],
+    //   details: [
+    //     { label: 'Tools', value: ['Cloudflare', 'Github'] },
+    //     { label: 'Category', value: ['Open source'] },
+    //   ],
+    //   pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/monitor', url: '#' }],
+    //
+    //   description:
+    //     '&emsp;&emsp;A project hosted on Cloudflare that enables website monitoring without requiring a server.',
+    //   tagsList: {
+    //     title: 'Technologies',
+    //     tags: [],
+    //   },
+    //   links: [github({ url: 'https://github.com/schrolemons/monitor' }), website({ url: 'monitor.sch-nie.com' })],
+    // },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;
 

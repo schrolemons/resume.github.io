@@ -23,7 +23,7 @@ const educationSectionData = {
       institution: 'Cyberspace Security',
       image: import('@/assets/logos/jlu.jpg'),
       dates: [new Date('2022.09'), new Date('2026.06')],
-      description: 'GPA:3.91/4.0，Rank:3/102.',
+      description: 'Rank:3/102,Outstanding Graduates.',
       links: [website({ url: 'https://www.jlu.edu.cn/' })],
     },
   ],

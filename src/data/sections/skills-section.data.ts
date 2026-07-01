@@ -1,6 +1,6 @@
 import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { c, python, mongoDb, nextJs,css,c2,pytorch } from '../helpers/skills';
+import { c, python, mongoDb, vue,react,c2,GO,pytorch } from '../helpers/skills';
 
 const skillsSectionData = {
   config: {
@@ -16,18 +16,27 @@ const skillsSectionData = {
         c({
           level: 5,
           description:
-            'Achieved 415/500 points in the CCF-CSP Computer Software Capability Certification, ranking within the top 0.6% nationally.'+'\n'+'Codeforces rate:1500+',
+            'Achieved 415/500 points in the CCF-CSP Computer Software Capability Certification, ranking within the top 0.6% nationally.' +
+            '\n' +
+            'Codeforces rate:1500+',
         }),
         python({
           level: 3,
-          description:
-            'null'
+          description: 'Pending',
         }),
+        GO({
+          level: 1,
+          description: 'Pending',
+        }),
+        c2({
+           level:1,
+           description:'Pending',
+          }),
       ],
     },
     {
       title: 'I want to learn（Provisional）',
-      skills: [pytorch(),mongoDb(), nextJs(),css(),c2()],
+      skills: [pytorch(), mongoDb(), vue(), react()],
     },
     {
       title: 'language',
