@@ -34,7 +34,7 @@ const portfolioSectionData = {
       ],
       pdfDetails: [{ label: 'Repository', value: 'https://github.com/schrolemons/', url: '#' }],
       screenshots: [
-        { src: import('@/assets/portfolio/zero.png'), alt: 'www.sch-nie.com' },
+        { src: import('@/assets/portfolio/zero.png'), alt: 'zero.sch-nie.com' },
         { src: import('@/assets/portfolio/world.png'), alt: 'world.sch-nie.com' },
         { src: import('@/assets/portfolio/blog.png'), alt: 'blog.sch-nie.com' },
       ],
@@ -44,7 +44,7 @@ const portfolioSectionData = {
         title: 'Technologies',
         tags: [nextJs(), css(), html()],
       },
-      links: [github({ url: 'https://github.com/schrolemons/' }), website({ url: 'https://www.sch-nie.com' })],
+      links: [github({ url: 'https://github.com/schrolemons/' }), website({ url: 'https://zero.sch-nie.com' })],
     },
     {
       name: 'Astro CV',

@@ -27,7 +27,7 @@ const mainSectionData = {
   description:
     "&emsp;&emsp;Welcome to my personal page. I am currently pursuing a research-based master's degree in Computer Science and Technology at the University of Science and Technology of China (USTC), and I completed my undergraduate studies in Cyberspace Security at Jilin University. " +
     '\n' +
-    " &emsp;&emsp;My research at the INT Lab (Intelligent Networks and Systems) at USTC will focus on distributed computing, though the specific direction hasn't been decided yet. I sincerely invite you to exchange ideas and discuss topics related to this field.",
+    " &emsp;&emsp;My primary research area at the Intelligent Networks and Systems Laboratory (INT Lab) at the University of Science and Technology of China (USTC) is network intelligence, with a specific focus on the deployment optimisation of small models. I would be delighted to discuss topics related to this field with you.",
   tags: [{ name: 'ACM "Amateur"' }, { name: 'Lover of fictional worlds' }, { name: 'Continuous balanced learner' }],
   action: {
     label: 'Download CV',

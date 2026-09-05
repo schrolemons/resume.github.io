@@ -15,7 +15,7 @@ const favoritesSectionData = {
         image: import('@/assets/favorites/books/book-4.png'),
         title: 'SCHNIE:Seablue Revery',
         author: 'Lemons Schro',
-        url: 'https://www.sch-nie.com/core/',
+        url: 'https://zero.sch-nie.com/core/',
       },
       {
         image: import('@/assets/favorites/books/book-1.jpg'),
